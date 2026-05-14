@@ -1,0 +1,70 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	margin: 0;
+}
+.header{
+	/*display: flex;
+	justify-content: center;*/
+	background-color: #0c2635;
+	margin-bottom: 25px;
+	padding: 0px 5px;
+}
+.header .container{
+	/*width: 1000px;*/
+}
+.logo{
+	padding-top: 15px;
+	padding-bottom: 45px;
+}
+.logo img{
+	width: 300px;
+}
+.menu{
+	/*display: flex;
+	align-items: center;*/
+	background-color: #dcdcdc;
+	border-radius: 1px;
+	margin-bottom: -25px;
+	z-index: 1;
+}
+.menu a{
+	text-decoration: none;
+	color: #092f44;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.menu .active{
+	background-color: #b7c2c8;
+	padding-left: 2px;
+	padding-right: 2px;
+	/*padding: 12px;
+	margin: 3px;*/
+}
+/*.menu a:hover{
+	background-color: #b7c2c8;
+	padding: 12px;
+	margin: 3px;
+}*/
+.menu .search-bar{
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: 4px;
+}
+.menu .search-bar input{
+	border: 2px solid grey;
+	border-radius: 5px;
+	padding: 10px 30px;
+}
+.menu .search-bar i{
+	color: grey;
+	position: absolute;
+	right: 5px;
+}

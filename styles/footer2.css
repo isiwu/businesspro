@@ -1,0 +1,47 @@
+footer{
+	background-color: #0c2635;
+}
+footer .title, footer .title2{
+	color: #456f7f;
+}
+.info{
+	display: flex;
+	justify-content: center;
+}
+.info .container{
+	display: flex;
+	width: 950px;
+	justify-content: space-between;
+}
+.info .container .column2{
+	display: none;
+}
+.info h3{
+	text-transform: uppercase;
+	color: #456f7f;
+	font-size: 14px;
+}
+.Adress{
+	color: #456f7f;
+	padding-bottom: 80px;
+}
+.Adress p{
+	margin: 7px 0px;
+	font-size: 14px;
+}
+.Adress p span:first-child {
+	display: inline-block;
+	width: 70px;
+}
+.Adress p span:last-child {
+	padding-left: 8px;
+}
+.copy-rights{
+	display: flex;
+	justify-content: center;
+}
+.copy-rights div{
+	color: #456f7f;
+	padding-bottom: 40px;
+	font-size: 13px;
+}
