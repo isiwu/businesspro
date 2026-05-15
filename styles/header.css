@@ -22,8 +22,8 @@ body{
 	width: 300px;
 }
 .menu{
-	/*display: flex;
-	align-items: center;*/
+	display: flex;
+	align-items: center;
 	background-color: #dcdcdc;
 	border-radius: 1px;
 	margin-bottom: -25px;
@@ -36,8 +36,8 @@ body{
 	font-size: 10px;
 	padding-right: 3px;
 	padding-left: 3px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .menu .active{
 	background-color: #b7c2c8;
@@ -62,6 +62,7 @@ body{
 	border: 2px solid grey;
 	border-radius: 5px;
 	padding: 10px 30px;
+	display: none;
 }
 .menu .search-bar i{
 	color: grey;

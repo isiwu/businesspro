@@ -10,7 +10,7 @@ footer .title, footer .title2{
 }
 .info .container{
 	display: flex;
-	width: 950px;
+	/*width: 950px;*/
 	justify-content: space-between;
 }
 .info h3{
@@ -22,8 +22,8 @@ footer .title, footer .title2{
 	color: #456f7f;
 }
 .Adress p{
-	margin: 3px;
-	font-size: 14px;
+	/*margin: 3px;*/
+	font-size: 8px;
 }
 .Adress p span:first-child {
 	display: inline-block;
@@ -31,6 +31,9 @@ footer .title, footer .title2{
 }
 .Adress p span:last-child {
 	padding-left: 8px;
+}
+.column2{
+	display: none;
 }
  .info .footer-icons{
 	display: flex;
