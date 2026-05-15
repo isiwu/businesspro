@@ -4,14 +4,15 @@ footer{
 footer .title, footer .title2{
 	color: #456f7f;
 }
-.info{
+/*.info{
 	display: flex;
 	justify-content: center;
-}
+}*/
 .info .container{
 	display: flex;
 	/*width: 950px;*/
 	justify-content: space-between;
+	padding: 0px 5px;
 }
 .info h3{
 	text-transform: uppercase;
@@ -27,7 +28,7 @@ footer .title, footer .title2{
 }
 .Adress p span:first-child {
 	display: inline-block;
-	width: 70px;
+	width: 20px;
 }
 .Adress p span:last-child {
 	padding-left: 8px;
