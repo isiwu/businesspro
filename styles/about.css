@@ -1,6 +1,10 @@
+body{
+	background-image: url("../images/bg-content.gif");
+}
 .main-content{
 	background: white;
-	padding: 0px 8px ;
+	padding: 10px 8px ;
+	margin: 0px 8px 12px 8px ;
 }
 .row-1 h2, .row-2 h2, .row-3 h2{
 	/**color :#0e2934;**/

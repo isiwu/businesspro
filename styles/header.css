@@ -8,7 +8,7 @@ body{
 	/*display: flex;
 	justify-content: center;*/
 	background-color: #0c2635;
-	margin-bottom: 25px;
+	/**margin-bottom: 25px;**/
 	padding: 0px 5px;
 }
 .header .container{
@@ -26,7 +26,10 @@ body{
 	align-items: center;
 	background-color: #dcdcdc;
 	border-radius: 1px;
-	/**margin-bottom: -25px;**/
+	margin-bottom: 15px;
+	margin-top: -20px;
+	margin-left: 8px;
+	margin-right: 8px;
 	z-index: 1;
 }
 .menu a{
