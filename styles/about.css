@@ -1,6 +1,8 @@
 body{
 	background-image: url("../images/bg-content.gif");
 }
+
+
 .main-content{
 	background: white;
 	padding: 10px 8px ;
@@ -39,4 +41,16 @@ body{
 .last-row div span{
 	color: #383838;
 	font-size: 17px;
+}
+
+@media screen and (min-width: 700px){
+	
+	.poppins{
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          font-style: normal;
+     }
+    .row-1 h2, .row-2 h2, .row-3 h2{
+	      font-size: 20px;
+    }	
 }
