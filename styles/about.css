@@ -45,12 +45,21 @@ body{
 
 @media screen and (min-width: 700px){
 	
-	.poppins{
+	/**.poppins{
           font-family: "Poppins", sans-serif;
           font-weight: 600;
           font-style: normal;
-     }
+     }**/
+	 .roboto{
+          font-family: "Roboto", sans-serif;
+          font-weight: 600 ;
+          font-style: normal;        
+      }
     .row-1 h2, .row-2 h2, .row-3 h2{
-	      font-size: 20px;
-    }	
+	      font-size: 18px;
+    }
+	.row-1 p, .row-2 p, .row-3 p{
+		  font-size: 17px;
+		  line-height: 25px;
+	}
 }
