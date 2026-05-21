@@ -33,9 +33,9 @@ footer .title, footer .title2{
 .Adress p span:last-child {
 	padding-left: 8px;
 }
-.column2{
+/*.column2{
 	display: none;
-}
+}*/
  .info .footer-icons{
 	display: flex;
 }
