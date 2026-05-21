@@ -26,8 +26,8 @@ footer .title, footer .title2{
 	padding-bottom: 80px;
 }
 .Adress p{
-	margin: 7px 0px;
-	font-size: 14px;
+	/*margin: 7px 0px;*/
+	font-size: 8px;
 }
 .Adress p span:first-child {
 	display: inline-block;

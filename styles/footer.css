@@ -33,9 +33,6 @@ footer .title, footer .title2{
 .Adress p span:last-child {
 	padding-left: 8px;
 }
-/*.column2{
-	display: none;
-}*/
  .info .footer-icons{
 	display: flex;
 }
@@ -45,7 +42,10 @@ footer .title, footer .title2{
 	background: #515c78;
 	border-radius: 50%;
 	/*margin-left: 11px;*/
-	margin-right: 11px;
+	margin-right: 9px;
+}
+.info .footer-icons > div:last-child {
+	margin-right: 0px;
 }
 .info .footer-icons div div {
 	height: 100%;
