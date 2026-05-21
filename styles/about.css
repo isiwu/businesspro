@@ -1,6 +1,12 @@
+body{
+	background-image: url("../images/bg-content.gif");
+}
+
+
 .main-content{
 	background: white;
-	padding: 0px 8px ;
+	padding: 10px 8px ;
+	margin: 0px 8px 12px 8px ;
 }
 .row-1 h2, .row-2 h2, .row-3 h2{
 	/**color :#0e2934;**/
@@ -35,4 +41,20 @@
 .last-row div span{
 	color: #383838;
 	font-size: 17px;
+}
+
+@media screen and (min-width: 700px){
+	
+	 .roboto{
+          font-family: "Roboto", sans-serif;
+          font-weight: 600 ;
+          font-style: normal;        
+      }
+    .row-1 h2, .row-2 h2, .row-3 h2{
+	      font-size: 18px;
+    }
+	.row-1 p, .row-2 p, .row-3 p{
+		  font-size: 17px;
+		  line-height: 25px;
+	}
 }

@@ -8,7 +8,7 @@ body{
 	/*display: flex;
 	justify-content: center;*/
 	background-color: #0c2635;
-	margin-bottom: 25px;
+	/**margin-bottom: 25px;**/
 	padding: 0px 5px;
 }
 .header .container{
@@ -26,14 +26,21 @@ body{
 	align-items: center;
 	background-color: #dcdcdc;
 	border-radius: 1px;
+<<<<<<< HEAD
 	/**margin-bottom: -25px;**/
+=======
+	margin-bottom: 15px;
+	margin-top: -20px;
+	margin-left: 8px;
+	margin-right: 8px;
+>>>>>>> e2ee87af72e78779ddc6331cef225f1e532a6559
 	z-index: 1;
 }
 .menu a{
 	text-decoration: none;
 	color: #092f44;
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 11px;
 	padding-right: 3px;
 	padding-left: 3px;
 	padding-top: 10px;
