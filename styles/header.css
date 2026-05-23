@@ -96,4 +96,40 @@ body{
 		padding: 15px;
 		letter-spacing: 1px;
 	}
+	.roboto{
+          font-family: "Roboto", sans-serif;
+          font-weight: 600 ;
+          font-style: normal;        
+    }
+	.menu .active{
+	background-color: #b7c2c8;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding: 12px;
+	margin: 3px;
+}
+	.menu a:hover{
+		background-color: #b7c2c8;
+		padding: 12px;
+		margin: 3px;
+	}
+	.menu .search-bar{
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-left: auto;
+		margin-right: 4px;
+	}
+	.menu .search-bar input{
+		display: block;
+		border: 2px solid grey;
+		border-radius: 5px;
+		padding: 10px 30px;
+	}
+	.menu .search-bar i{
+		color: grey;
+		position: absolute;
+		right: 5px;
+	}
+	
 }
