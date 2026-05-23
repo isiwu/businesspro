@@ -5,14 +5,8 @@ body{
 	margin: 0;
 }
 .header{
-	/*display: flex;
-	justify-content: center;*/
 	background-color: #0c2635;
-	/**margin-bottom: 25px;**/
 	padding: 0px 5px;
-}
-.header .container{
-	/*width: 1000px;*/
 }
 .logo{
 	padding-top: 15px;
@@ -76,11 +70,30 @@ body{
 /* tablet */
 @media screen and (min-width: 700px) {
 	.logo img{
-		width: 600px;
+		width: 500px;
 	}
 	.menu a{
 		font-size: 18px;
 		letter-spacing: 0.5px;
 		padding: 10px 6px;
 	}	
+}
+
+/* This part is for computer */
+@media screen and (min-width: 950px) {
+	.header{
+		display: flex;
+		justify-content: center;
+	}
+	.header .container {
+		width: 1000px;
+	}
+	.logo img{
+		width: 560px;
+	}
+	.menu a{
+		font-size: 15px;
+		padding: 15px;
+		letter-spacing: 1px;
+	}
 }
