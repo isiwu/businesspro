@@ -72,3 +72,15 @@ body{
 	position: absolute;
 	right: 5px;
 }
+
+/* tablet */
+@media screen and (min-width: 700px) {
+	.logo img{
+		width: 600px;
+	}
+	.menu a{
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 10px 6px;
+	}	
+}
