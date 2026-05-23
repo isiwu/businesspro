@@ -1,21 +1,21 @@
 html {
 	font-family: Arial, Helvetica, sans-serif;
 }
-body{
+body {
 	margin: 0;
 }
-.header{
+.header {
 	background-color: #0c2635;
 	padding: 0px 5px;
 }
-.logo{
+.logo {
 	padding-top: 15px;
 	padding-bottom: 45px;
 }
-.logo img{
+.logo img {
 	width: 300px;
 }
-.menu{
+.menu {
 	display: flex;
 	align-items: center;
 	background-color: #dcdcdc;
@@ -26,7 +26,7 @@ body{
 	margin-right: 8px;
 	z-index: 1;
 }
-.menu a{
+.menu a {
 	text-decoration: none;
 	color: #092f44;
 	font-weight: bold;
@@ -36,32 +36,25 @@ body{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.menu .active{
+.menu .active {
 	background-color: #b7c2c8;
 	padding-left: 2px;
 	padding-right: 2px;
-	/*padding: 12px;
-	margin: 3px;*/
 }
-/*.menu a:hover{
-	background-color: #b7c2c8;
-	padding: 12px;
-	margin: 3px;
-}*/
-.menu .search-bar{
+.menu .search-bar {
 	display: flex;
 	align-items: center;
 	position: relative;
 	margin-left: auto;
 	margin-right: 4px;
 }
-.menu .search-bar input{
+.menu .search-bar input {
 	border: 2px solid grey;
 	border-radius: 5px;
 	padding: 10px 30px;
 	display: none;
 }
-.menu .search-bar i{
+.menu .search-bar i {
 	color: grey;
 	position: absolute;
 	right: 5px;
@@ -69,10 +62,10 @@ body{
 
 /* tablet */
 @media screen and (min-width: 700px) {
-	.logo img{
+	.logo img {
 		width: 500px;
 	}
-	.menu a{
+	.menu a {
 		font-size: 18px;
 		letter-spacing: 0.5px;
 		padding: 10px 6px;
@@ -81,52 +74,52 @@ body{
 
 /* This part is for computer */
 @media screen and (min-width: 950px) {
-	.header{
+	.header {
 		display: flex;
 		justify-content: center;
 	}
 	.header .container {
 		width: 1000px;
 	}
-	.logo img{
+	.logo img {
 		width: 560px;
 	}
-	.menu a{
+	.menu a {
 		font-size: 15px;
 		padding: 15px;
 		letter-spacing: 1px;
 	}
-	.roboto{
-          font-family: "Roboto", sans-serif;
-          font-weight: 600 ;
-          font-style: normal;        
+	.roboto {
+		font-family: "Roboto", sans-serif;
+		font-weight: 600 ;
+		font-style: normal;        
     }
-	.menu .active{
-	background-color: #b7c2c8;
-	padding-left: 2px;
-	padding-right: 2px;
-	padding: 12px;
-	margin: 3px;
-}
-	.menu a:hover{
+	.menu .active {
+		background-color: #b7c2c8;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding: 12px;
+		margin: 3px;
+	}
+	.menu a:hover {
 		background-color: #b7c2c8;
 		padding: 12px;
 		margin: 3px;
 	}
-	.menu .search-bar{
+	.menu .search-bar {
 		display: flex;
 		align-items: center;
 		position: relative;
 		margin-left: auto;
 		margin-right: 4px;
 	}
-	.menu .search-bar input{
+	.menu .search-bar input {
 		display: block;
 		border: 2px solid grey;
 		border-radius: 5px;
 		padding: 10px 30px;
 	}
-	.menu .search-bar i{
+	.menu .search-bar i {
 		color: grey;
 		position: absolute;
 		right: 5px;
