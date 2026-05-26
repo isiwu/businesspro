@@ -23,7 +23,6 @@ body{
 }
 .row2{
 	display: flex;
-	background: red;
 }
 .row2 h4{
 	margin-bottom: 0px;
