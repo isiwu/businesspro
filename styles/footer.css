@@ -79,9 +79,21 @@ footer .title, footer .title2{
 	}
 	.info h3{
 		font-size: 20px;
+		margin-bottom: 10px;
 	}
 	.Adress p{
 		font-size: 18px;
+	}
+	.Adress p:first-child{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.Adress p:nth-child(2){
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+	.Adress p:last-child{
+		margin-top: 0px;
 	}
 	.info .footer-icons > div{
 		width: 38px;
@@ -97,5 +109,25 @@ footer .title, footer .title2{
 	.info {
 		display: flex;
 		justify-content: center;
+	}
+	.info .container{
+		width: 990px;
+	}
+	.info .footer-icons div .fa {
+		font-size: ;
+	}
+	.Adress p {
+		font-size: 15px;
+	}
+	.Adress p:nth-child(2) {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.info .footer-icons > div{
+		width: 60px;
+		height: 60px;
+	}
+	.info .footer-icons div .fa {
+		font-size: 40px;
 	}
 }
