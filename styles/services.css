@@ -9,17 +9,17 @@ body{
 .row1 h3{
 	color :#0e2934;
 	margin-bottom: 0px;
-	font-size: 30px;
+	font-size: 25px;
 }
 .row1 p{
 	margin-top: 0px;
 	line-height: 25px;
 	color:  #646c6f;
-	font-size: 16px;
+	font-size: 20px;
 }
 .row1 p a{
 	color:  #646c6f;
-	font-size: 16px;
+	font-size: 20px;
 }
 .row2{
 	display: flex;
@@ -31,18 +31,19 @@ body{
 .row2 p{
 	margin-top: 2px;
 	color:  #646c6f;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 20px;
 }
 .row2 .column2  li:nth-child(2){
-	margin-top: 35px;
-	margin-bottom: 35px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 .row3{
 	margin-top: 20px;
+	margin-bottom: 300px;
 }
 .row3 p{
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 28px;
 	color:  #646c6f;
 }
