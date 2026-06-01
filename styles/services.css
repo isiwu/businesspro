@@ -47,3 +47,20 @@ body{
 	line-height: 28px;
 	color:  #646c6f;
 }
+/**this is for ipad**/
+@media screen and (min-width:700px){
+	
+	.row1 h3{
+		font-size: 20px;
+	}
+	.row2  img{
+		width: 414px;
+		height: 392px;
+	}
+	.row2 h4{
+		font-size: 14px;
+	}
+	.row2 p , .row3 p{
+		font-size: 15px;
+	}
+}
