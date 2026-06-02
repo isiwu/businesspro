@@ -50,6 +50,9 @@ body{
 /**this is for ipad**/
 @media screen and (min-width:700px){
 	
+	.main-content{
+		margin-top: 23px;
+	}
 	.row1 h3{
 		font-size: 20px;
 	}
@@ -62,5 +65,31 @@ body{
 	}
 	.row2 p , .row3 p{
 		font-size: 15px;
+	}
+}
+@media screen and (min-width: 950px){
+	#body{
+		display: flex;
+		justify-content: center;
+	}
+	#body-content{
+		width: 1000px;
+	}
+	.main-content{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.row1 h3{
+		font-size: 26px;
+	}
+	.row2 img{
+		width: 515px;
+		height: 342;
+	}
+	.row2 h4{
+		font-size: 16px;
+	}
+	.row2 p , .row3 p{
+		font-size: 16px;
 	}
 }
