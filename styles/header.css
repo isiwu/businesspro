@@ -62,6 +62,9 @@ body {
 
 /* tablet */
 @media screen and (min-width: 700px) {
+	.menu {
+		margin-bottom: 0px;
+	}
 	.logo img {
 		width: 500px;
 	}
@@ -124,5 +127,4 @@ body {
 		position: absolute;
 		right: 5px;
 	}
-	
 }
