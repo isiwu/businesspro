@@ -147,12 +147,16 @@
 	.blog .container .column2 .content1 .content1-container1{
 		margin-right: 20px;
 	}
+	.blog .container .articles .img img {
+		width: 50px;
+		height: 65px;
+	}
 	.blog .container .column2 .img, .blog .container .column2 .img2{
 		display: flex;
 	}
 	.blog .container .column2 .img h4, .blog .container .column2 .img2 h4{
 		color: #fff;
-		font-size: 18px;
+		font-size: /*18px*/ 14px;
 		padding-left: 10px;
 	}
 	.blog .container .column2 .img h4:hover, .blog .container .column2 .img2 h4:hover{
