@@ -60,6 +60,8 @@ body{
 	font-size: 16px;
 	line-height: 27px;
 }
+
+/* Computer */
 @media screen and (min-width: 950px){
 	#body{
 		display: flex;
