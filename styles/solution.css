@@ -70,4 +70,10 @@ body{
 	#body-content{
 		width: 1000px;
 	}
+	.row1 h4, .row1 p{
+		font-size: 25px;
+	}
+	.row2 h3, .row2 p{
+		font-size: 20px;
+	}
 }
