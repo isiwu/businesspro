@@ -13,7 +13,9 @@ body{
     padding: 10px 16px 300px 16px;
     margin-bottom: 25px;
     border-radius: 5px;
-	margin-top: 25px;
+	margin-top: 15px;
+	margin-left: 12px;
+	margin-right: 12px;
 }
 .row1{
 	margin-bottom: 0px;
@@ -54,7 +56,16 @@ body{
 }
 .row2 p{
 	margin-top: 2px;
-	color:  #646c6f;
+	color:  #646c6f; 
 	font-size: 16px;
 	line-height: 27px;
+}
+@media screen and (min-width: 950px){
+	#body{
+		display: flex;
+		justify-content: center;
+	}
+	#body-content{
+		width: 1000px;
+	}
 }
