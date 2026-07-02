@@ -210,7 +210,7 @@
 	.widgets{
 		display: flex;
 		justify-content: center;
-		margin-top: -58px;
+		margin-top: -15px;
 		width: 999px;
 		z-index: 100;
 	}
