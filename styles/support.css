@@ -10,7 +10,7 @@ body{
 .content{
 	/**width: 970px;**/
     background: white;
-    padding: 10px 16px 300px 16px;
+    padding: 10px 16px 50px 16px;
 	/**padding: 0px 16px 300px 16px;**/
     margin-bottom: 25px;
     border-radius: 5px;
@@ -33,20 +33,31 @@ body{
 	line-height: 29px;
 	color:  #646c6f;
 	font-size: 16px;
+	padding-bottom: 0px;
 }
 .row1 p a{
 	color:  #646c6f;
 	font-size: 16px;
 }
 .row2{
-	padding-top: 10px;
+	/**padding-top: 10px;**/
+	padding-top: 0px;
+}
+.row2 ul{
+	padding-left: 0px;
 }
 .row2 ul li{
 	display: flex;
 	list-style-type: none;
 }
+.row2 .img-container{
+	display: flex;
+	align-items: center;
+}
 .row2  img{
-    padding-right: 40px;
+    /**padding-right: 40px;**/
+	padding-right: 10px;
+	margin-left: 0px;
 }
 .row2 h3{
 	color:  #646c6f;
