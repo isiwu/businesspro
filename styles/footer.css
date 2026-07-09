@@ -67,8 +67,8 @@ footer .title, footer .title2{
 }
 .copy-rights div{
 	color: #456f7f;
-	margin-top: 30px;
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	font-size: 13px;
 }
 
@@ -113,15 +113,19 @@ footer .title, footer .title2{
 	.info .container{
 		width: 990px;
 	}
-	/* .info .footer-icons div .fa {
-		font-size: ;
-	} */
 	.Adress p {
 		font-size: 15px;
 	}
+	.Adress p span:first-child {
+		display: inline-block;
+		width: 60px;
+	}
+	.Adress p span:last-child {
+		padding-left: 2px;
+	}
 	.Adress p:nth-child(2) {
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 	.info .footer-icons > div{
 		width: 60px;
@@ -129,5 +133,9 @@ footer .title, footer .title2{
 	}
 	.info .footer-icons div .fa {
 		font-size: 40px;
+	}
+	.copy-rights div{
+		margin-top: 30px;
+		margin-bottom: 40px;
 	}
 }
