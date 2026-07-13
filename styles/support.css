@@ -71,3 +71,20 @@ body{
 	font-size: 15px;
 	margin-bottom: 35px;
 }
+@media screen and (min-width: 950px){
+	#body{
+		display: flex;
+		justify-content: center;
+	}
+	.content{
+		width: 970px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 40px;
+		padding-bottom: 300px;
+	}
+	.row2 img{
+		padding-left: 23px;
+		padding-right: 23px;
+	}
+}
