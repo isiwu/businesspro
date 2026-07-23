@@ -101,10 +101,14 @@ body{
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 	}
+	.content .title .p{
+		width: 100%;
+	}
 	.content .title p{
 		color: #383838;
 		margin-top: 0px;
 		padding-top: 0px;
+		font-size: 1em;
 	}
 	.content .title a{
 		color: #383838;
