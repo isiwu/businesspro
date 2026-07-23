@@ -6,10 +6,17 @@ body{
 .main-content{
 	display: flex;
 	justify-content: center;
+<<<<<<< HEAD
 	background-image: url("../images/bg-content.gif");
 	padding: 0px;
 }
 
+=======
+	/* background-image: url("../images/bg-content.gif"); */
+	background-color: white;
+	padding: 0px;
+}
+>>>>>>> 9d5f80347c2cdecd226843ecd06ec08f98da0704
 .content .title {
 	display: none;
 }
@@ -38,8 +45,8 @@ body{
 	margin: 5px;
 	color: #383838;
 }
-.contact3{
-}
+/* .contact3{
+} */
 @media screen and (min-width: 700px){
 	.main-content{
 		background-color: white;
@@ -49,8 +56,8 @@ body{
 	.content .title{
 		display: block;
 	}
-	.content .title h2{
-	}
+	/* .content .title h2{
+	} */
 }
 @media screen and (min-width: 900px){
 	.content{
