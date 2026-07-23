@@ -9,9 +9,7 @@ body{
 	background-image: url("../images/bg-content.gif");
 	padding: 0px;
 }
-.main-content-container{
-	background-color: white;
-}
+
 .content .title {
 	display: none;
 }
