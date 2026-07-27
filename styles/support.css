@@ -5,7 +5,9 @@ body{
 .main-content{
 	display: flex;
     justify-content: center;
-	
+	margin-top: 18px;
+    margin-left: 12px;
+	margin-right: 12px;
 }
 .content{
 	/**width: 970px;**/
@@ -14,10 +16,6 @@ body{
 	/**padding: 0px 16px 300px 16px;**/
     margin-bottom: 25px;
     border-radius: 5px;
-	margin-top: 25px;
-    margin-left: 12px;
-	margin-right: 12px;
-
 }
 .row1{
 	margin-bottom: 0px;
@@ -76,8 +74,11 @@ body{
 		display: flex;
 		justify-content: center;
 	}
+	.main-content{
+		margin-top: 15px;
+	}
 	.content{
-		width: 950px;
+		width: 970px;
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-top: 40px;

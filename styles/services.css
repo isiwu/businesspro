@@ -4,7 +4,7 @@ body{
 .main-content{
 	background: white;
 	padding: 10px 8px ;
-	margin: 0px 8px 12px 8px ;
+	margin: 18px 8px 12px 8px ;
 }
 .row1 h3{
 	color :#0e2934;
@@ -78,6 +78,7 @@ body{
 	.main-content{
 		padding-left: 25px;
 		padding-right: 25px;
+		margin-top: 15px;
 	}
 	.row1 h3{
 		font-size: 26px;

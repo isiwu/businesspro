@@ -6,7 +6,7 @@ body{
 .main-content{
 	background: white;
 	padding: 10px 8px ;
-	margin: 0px 8px 12px 8px ;
+	margin: 18px 8px 12px 8px ;
 }
 .row-1 h2, .row-2 h2, .row-3 h2{
 	/**color :#0e2934;**/
@@ -68,6 +68,9 @@ body{
 	}
 	#body #body-content{
 		width: 1000px;
+	}
+	.main-content{
+		margin-top: 15px;
 	}
 	.content{
 		padding-left: 12px;

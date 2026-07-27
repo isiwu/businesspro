@@ -5,7 +5,9 @@ body{
 .main-content{
 	display: flex;
     justify-content: center;
-	
+	margin-top: 25px;
+	margin-left: 12px;
+	margin-right: 12px;
 }
 .content{
 	width: 960px;
@@ -13,9 +15,6 @@ body{
     padding: 10px 19px 300px 19px;
     margin-bottom: 25px;
     border-radius: 5px;
-	margin-top: 25px;
-	margin-left: 12px;
-	margin-right: 12px;
 	/**display: flex;
 	/**justify-content: space-between;**/
 }
@@ -127,6 +126,9 @@ body{
 	#body{
 		display: flex;
 		justify-content: center;
+	}
+	.main-content{
+		margin-top: 15px;
 	}
 	.content{
 		width: 950px;
