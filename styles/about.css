@@ -45,6 +45,9 @@ body{
 
 /** This is for tablet/ipad**/
 @media screen and (min-width: 700px){
+	.main-content{
+		padding-bottom: 300px
+	}
 	
 	 .roboto{
           font-family: "Roboto", sans-serif;
@@ -71,6 +74,7 @@ body{
 	}
 	.main-content{
 		margin-top: 15px;
+		padding: 0px;
 	}
 	.content{
 		padding-left: 12px;
