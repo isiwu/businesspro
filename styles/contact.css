@@ -1,25 +1,11 @@
 body{
 	background-image: url("../images/bg-content.gif");
-	padding: 0px;
-	margin: 0px;
-}
-.body{
-	display: flex;
-	justify-content: center;
 }
 .main-content{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/*background-image: url("../images/bg-content.gif");*/
-	margin-bottom: 0px;
 	background-color: white;
-	padding:  10px 0px;
-	margin: 0px 8px 0px 8px;
+	padding:  10px 4px;
+	margin: 18px 8px 12px 8px;
 }
-/*.main-container{
-	width: 1000px;
-}*/
 .content .title {
 	display: none;
 }
@@ -59,42 +45,24 @@ body{
 	.content .title{
 		display: block;
 	}
-	.content .title h2{
-		font-size: 40px;
-	}
 	.content .title .p{
 		width: 90%;
 	}
-	.content .title p{
-		color: #383838;
-		margin-top: 0px;
-		padding-top: 0px;
-		font-size: 30px;
-	}
 @media screen and (min-width: 900px){
-	body{
-		background-image: url("../images/bg-content.gif");
-		padding: 0px;
-		margin: 0px;
-	}
-	.body{
+	#body{
 		display: flex;
 		justify-content: center;
-		padding: 0px 0px 10px 0px;
+	}
+	#body #body-content{
+		width: 1000px;
 	}
 	.main-content{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 0px;
-		border-radius: 15px;
-		background-color: white;
-		padding:  0px 25px;
-		padding-bottom: 350px;
-		margin: 0px 8px 0px 8px;
+		margin-top: 15px;
 	}
-	.main-container{
-		width: 1000px;
+	.content{
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-bottom: 200px;
 	}
 	.content .title h2{
 		color: #303030;
